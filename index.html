@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantita | Bring Nature Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo-container">
+            <img
+                id="header-img"
+                src="https://images.pexels.com/photos/6899798/pexels-photo-6899798.jpeg"
+                alt="Plantita logo">
+            <span>PLANTITA</span>
+        </div>
+
+        <nav id="nav-bar">
+            <a class="nav-link" href="#home">HOME</a>
+            <a class="nav-link" href="#about">ABOUT</a>
+            <a class="nav-link" href="#products">PLANTS</a>
+            <a class="nav-link" href="#contact">CONTACT</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <p class="top-text">
+                    BRING NATURE HOME
+                </p>
+                <h1>GROW SOMETHING<br>BEAUTIFUL.</h1>
+                <p class="hero-description">Discover beautiful indoor plants that bring freshness, life, and a touch of nature into your everyday space.</p>
+                <div class="hero-buttons">
+                    <a href="#products" class="hero-button">EXPLORE</a>
+                    <a href="#contact" class="hero-button outline-button">CONTACT US</a>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="about">
+            <div class="about-image">
+                <img
+                    src="https://images.pexels.com/photos/38127241/pexels-photo-38127241.jpeg"
+                    alt="Collection of indoor plants">
+            </div>
+
+            <div class="about-content">
+                <p class="top-text">ABOUT PLANTITA</p>
+                <h2>A LITTLE MORE<br>GREEN IN YOUR LIFE.</h2>
+                <p>Plantita is a plant shop created for people who want to bring a little more nature,
+                freshness, and life into their everyday spaces.</p>
+                <p>From beginners caring for their first plant to experienced plant lovers 
+                    growing their collection, Plantita offers beautiful plants for every kind of plantita.
+                </p>
+
+            </div>
+
+        </section>
+
+        <section id="products">
+            <div class="section-heading">
+                <p class="top-text">PLANTITA COLLECTION</p>
+                <h2>OUR PLANTS</h2>
+                <p>Find the perfect plant to make your space feel more alive.</p>
+            </div>
+
+
+            <div class="products-container">
+                <div class="product-card">
+                    <img
+                        src="https://images.pexels.com/photos/22863428/pexels-photo-22863428.jpeg"
+                        alt="Snake plant">
+
+                    <div class="product-info">
+                        <p class="product-category">INDOOR PLANT</p>
+                        <h3>Snake Plant</h3>
+                        <p class="price">₱450</p>
+                        <p>A low-maintenance plant with tall, elegant leaves that is perfect for beginners.</p>
+                        <button class="product-button">VIEW PLANT</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+
+                    <img
+                        src="https://images.pexels.com/photos/7318283/pexels-photo-7318283.jpeg"
+                        alt="Monstera plant">
+
+                    <div class="product-info">
+                        <p class="product-category">TROPICAL PLANT</p>
+                        <h3>Monstera</h3>
+                        <p class="price">₱650</p>
+                        <p>A tropical favorite with large, beautiful leaves that instantly brightens any room.
+                        </p>
+                        <button class="product-button">VIEW PLANT</button>
+                    </div>
+
+                </div>
+
+                <div class="product-card">
+                    <img
+                        src="https://images.pexels.com/photos/19404633/pexels-photo-19404633.jpeg"
+                        alt="Peace lily">
+                    <div class="product-info">
+                        <p class="product-category">FLOWERING PLANT</p>
+                        <h3>Peace Lily</h3>
+                        <p class="price">₱550</p>
+                        <p>An elegant indoor plant with lush green leaves and beautiful white flowers.
+                        </p>
+                        <button class="product-button">VIEW PLANT</button>
+                    </div>
+                </div>
+
+
+                <div class="product-card">
+                    <img
+                        src="https://images.pexels.com/photos/33448610/pexels-photo-33448610.jpeg"
+                        alt="Calathea plant">
+                    <div class="product-info">
+                        <p class="product-category">PREMIUM PLANT</p>
+                        <h3>Calathea</h3>
+                        <p class="price">₱750</p>
+                        <p>A beautiful plant with patterned leaves that adds personality to your space.</p>
+                        <button class="product-button">VIEW PLANT</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="demo">
+            <div class="section-heading">
+                <p class="top-text">PLANT CARE GUIDE</p>
+                <h2>LEARN TO LOVE YOUR PLANTS</h2>
+                <p>Learn simple plant-care tips to keep your plants healthy and beautiful.</p>
+            </div>
+
+            <div class="video-container">
+                <iframe
+                    id="video"
+                    src="https://www.youtube.com/embed/2agkrUHz5HU?si=16Vxtp-8RygPLHj7"
+                    title="Plant care video"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        <section id="contact">
+        <div class="contact-content">
+            <div class="contact-text">
+                <p class="top-text">STAY CONNECTED</p>
+                <h2>LET'S TALK<br>PLANTS.</h2>
+                <p>Have a question about our plants? Leave your email and stay updated with
+                    new arrivals, plant-care tips, and offers.</p>
+            </div>
+
+            <form
+                id="form"
+                action="https://www.freecodecamp.com/email-submit">
+
+                <label for="email">
+                    EMAIL ADDRESS
+                </label>
+
+                <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="Enter your email address"
+                    required>
+
+                <input
+                    id="submit"
+                    type="submit"
+                    value="SEND">
+
+            </form>
+        </div>
+    </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 PLANTITA</p>
+        <p>GROW SOMETHING BEAUTIFUL.</p>
+    </footer>
+
+
+</body>
+</html>
+
